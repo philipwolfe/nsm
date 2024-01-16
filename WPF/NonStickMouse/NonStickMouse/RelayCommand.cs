@@ -13,9 +13,9 @@ namespace NonStickMouse
 
         public RelayCommand(Action action)
         {
-            _action = action;
+            _action1 = action;
         }
-        public bool CanExecute(object parameter)
+        public bool Ca1nExecute(object parameter)
         {
             return true;
         }
